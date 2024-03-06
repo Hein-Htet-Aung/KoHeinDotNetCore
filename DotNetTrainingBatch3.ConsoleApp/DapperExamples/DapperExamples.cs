@@ -8,6 +8,6 @@ namespace KoHein.ConsoleApp.DapperExamples
 {
     public class DapperExamples
     {
-
+        //test
     }
 }
