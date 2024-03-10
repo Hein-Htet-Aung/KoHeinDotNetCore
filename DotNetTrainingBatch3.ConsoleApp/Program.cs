@@ -1,14 +1,14 @@
 ﻿using KoHein.ConsoleApp.ADODotNetExamples;
+using KoHein.ConsoleApp.DapperExamples;
 using System.Data;
 using System.Data.SqlClient;
 
 
-ADODotNetExample ADO = new ADODotNetExample();
+DapperExamples DAP = new DapperExamples();
 
-ADO.Read();
-ADO.Edit(1);
-ADO.Edit(2);
-ADO.Create("BlogTitle1", "BlogAuthor1", "BlogContent1");
-ADO.Update(2,"UpdateTitle", "UpdateAuthor", "UpdateContent1");
-ADO.Delete(4);
+DAP.read();
+DAP.Edit(1);
+DAP.create("BlogTitle1", "BlogAuthor1", "BlogContent1");
+DAP.Update(2,"UpdateTitle12", "UpdateAuthor12", "UpdateContent12");
+DAP.Delete(5);
 Console.ReadKey();
