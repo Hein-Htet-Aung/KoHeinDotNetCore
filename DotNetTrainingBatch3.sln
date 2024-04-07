@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoHein.ConsoleApp", "DotNetTrainingBatch3.ConsoleApp\KoHein.ConsoleApp.csproj", "{A7007AAB-6780-4896-91EB-A9BEFEBB6FD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoHeinDotNetCoreWebAPI", "KoHeinDotNetCoreWebAPI\KoHeinDotNetCoreWebAPI.csproj", "{F91D1C2D-C2B7-4FCD-ABE5-B7E4E8B6509B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoHeinDotNetCoreWebAPI", "KoHeinDotNetCoreWebAPI\KoHeinDotNetCoreWebAPI.csproj", "{F91D1C2D-C2B7-4FCD-ABE5-B7E4E8B6509B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoHeinDotNetCore.LoginUser", "KoHeinDotNetCore.LoginUser\KoHeinDotNetCore.LoginUser.csproj", "{0757ABF5-D353-410E-B97E-0127813E80BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F91D1C2D-C2B7-4FCD-ABE5-B7E4E8B6509B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91D1C2D-C2B7-4FCD-ABE5-B7E4E8B6509B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91D1C2D-C2B7-4FCD-ABE5-B7E4E8B6509B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0757ABF5-D353-410E-B97E-0127813E80BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0757ABF5-D353-410E-B97E-0127813E80BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0757ABF5-D353-410E-B97E-0127813E80BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0757ABF5-D353-410E-B97E-0127813E80BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
