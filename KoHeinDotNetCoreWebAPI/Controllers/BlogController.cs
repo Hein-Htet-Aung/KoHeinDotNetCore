@@ -14,11 +14,24 @@ namespace KoHeinDotNetCoreWebAPI.Controllers
             _db = new AppDbContext();
         }
         [HttpGet]
-        public IActionResult GetBlog()
+        public IActionResult GetBlogs()
         {
-            List<BlogModel> ls = _db.Blogs.ToList();
+            List<BlogModel> ls = _db.Blogs.OrderByDescending(x => x.BlogId).ToList();
            
             return Ok(ls);
+        }
+
+        [HttpGet(template:"{Id}")]
+        public IActionResult GetBlog(int Id)
+        {
+            BlogModel? Blog = _db.Blogs.Where(x=>x.BlogId == Id).FirstOrDefault();
+
+            if (Blog is null) 
+            {
+                return NotFound("Not record found.");
+            }
+
+            return Ok(Blog);
         }
 
         [HttpPost]
